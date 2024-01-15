@@ -32,6 +32,8 @@
         "typescript": "^5.2.2"
     },
     "dependencies": {
+        "@babel/preset-react": "^7.23.3",
+        "@prj--personal-portfolio-v2/shared-foundation": "*",
         "babel-jest": "^29.7.0",
         "jest-environment-jsdom": "^29.7.0"
     },
