@@ -3,10 +3,7 @@ const terser = require('@rollup/plugin-terser');
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
-const input = [
-    './src/index.ts',
-    './src/templates/PersonalPortfolioWebpage/index.ts'
-];
+const input = ['./src/index.ts', './src/templates/PersonalPortfolioWebpage/index.ts'];
 
 const plugins = [typescript()];
 
