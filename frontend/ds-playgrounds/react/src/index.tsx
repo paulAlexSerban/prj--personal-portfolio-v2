@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PersonalPortfolioWebpage } from '@prj--personal-portfolio-v2/react-cmp-lib/lib/index';
+import { Paragraph } from '@prj--personal-portfolio-v2/react-cmp-lib/lib/index';
 ReactDOM.render(
     <div>
-        <PersonalPortfolioWebpage />
+        <Paragraph size="xs">
+            Paragraph - XSMALL - Lorem ipsum dolor sit amet consectetur adipisicing elit. At, accusantium?
+        </Paragraph>
     </div>,
     document.querySelector('#root')
 );

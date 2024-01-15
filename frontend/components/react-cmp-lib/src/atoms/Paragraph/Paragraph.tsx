@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { type FC, type HTMLAttributes, type ReactNode } from 'react';
 import { fontSize } from '@prj--personal-portfolio-v2/shared-foundation';
 
-export interface ParagraphProps {
+export type ParagraphProps = {
     size?: keyof typeof fontSize;
-    children: React.ReactNode;
-}
-const Paragraph: React.FC<ParagraphProps> = ({ size = fontSize.base, children }) => {
+    children: ReactNode;
+} & HTMLAttributes<HTMLParagraphElement>;
+
+const Paragraph: FC<ParagraphProps> = ({ size = fontSize.base, children, ...props }) => {
     const className = `paragraph paragraph--${size}`;
     return (
-        <p data-testid="Paragraph" className={className}>
+        <p data-testid="Paragraph" className={className} {...props}>
             {children}
         </p>
     );

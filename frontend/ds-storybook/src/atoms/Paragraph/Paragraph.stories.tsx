@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
+
 import { Paragraph } from '@prj--personal-portfolio-v2/react-cmp-lib';
-// import '@prj--personal-portfolio-v2/lsg-styles-generic/lib/components/atoms/paragraph.css';
+import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.css';
 
 const meta = {
     title: 'Atoms/Paragraph',
@@ -33,6 +34,6 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
     args: {
         size: 'base',
-        children: 'Hello World',
+        children: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At, accusantium?',
     },
 };
