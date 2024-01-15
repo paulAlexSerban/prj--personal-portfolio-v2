@@ -23,12 +23,12 @@ $fs-base: 1rem; // 16px
 $fs-lg: 1.125rem; // 18px
 $fs-xl: 1.5rem; // 24px
 
-$fs: (
-    xs: 0.75rem,
-    sm: 0.875rem,
-    base: 1rem,
-    lg: 1.125rem,
-    xl: 1.5rem,
+$font-sizes: (
+    xs: #{$fs-xs},
+    sm: #{$fs-sm},
+    base: #{$fs-base},
+    lg: #{$fs-lg},
+    xl: #{$fs-xl},
 );
 
 /* Heading font sizes */
@@ -39,6 +39,15 @@ $h-4: 1.125rem; // 18px
 $h-5: 0.75rem; // 12px
 $h-6: 0.75rem; // 12px
 
+$heading-sizes: (
+    h-1: #{$h-1},
+    h-2: #{$h-2},
+    h-3: #{$h-3},
+    h-4: #{$h-4},
+    h-5: #{$h-5},
+    h-6: #{$h-6},
+);
+
 /* Font weights */
 
 $fw-light: 300;
@@ -48,5 +57,15 @@ $fw-semibold: 600;
 $fw-bold: 700;
 $fw-extrabold: 800;
 $fw-black: 900;
+
+$font-weights: (
+    light: #{$fw-light},
+    normal: #{$fw-normal},
+    medium: #{$fw-medium},
+    semibold: #{$fw-semibold},
+    bold: #{$fw-bold},
+    extrabold: #{$fw-extrabold},
+    black: #{$fw-black},
+);
 
 /*=====  End of Typography  ======*/

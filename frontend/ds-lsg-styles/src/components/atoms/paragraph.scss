@@ -1,10 +1,10 @@
 @use '../../_02_settings_tools/index.scss' as *;
 
-.paragraph {
+.ga-paragraph {
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
 
-    @each $size, $value in $fs {
+    @each $size, $value in $font-sizes {
         &--#{$size} {
             font-size: $value;
         }
