@@ -12,7 +12,9 @@
     "dependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "next": "14.0.4"
+        "next": "14.0.4",
+        "@prj--personal-portfolio-v2/react-cmp-lib": "*",
+        "@prj--personal-portfolio-v2/ds-lsg-styles": "*"
     },
     "devDependencies": {
         "typescript": "^5.2.2",

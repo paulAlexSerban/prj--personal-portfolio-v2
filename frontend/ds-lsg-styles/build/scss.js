@@ -22,6 +22,7 @@ const getComponents = () => {
                 .map((file) => ({
                     input: `${SRC_DIR}/${type}/${component}/${file}`,
                     output: `${DIST_DIR}/${type}/${component}/${file.replace('.scss', '.css')}`,
+                    moduleOutput: `${DIST_DIR}/${type}/${component}/${file.replace('.scss', '.module.css')}`,
                 }));
             groups[type] = [...groups[type], ...allFiles];
         });
@@ -50,8 +51,9 @@ const init = () => {
 
     // compile(`${SRC_DIR}/global.scss`, `${DIST_DIR}/global.css`);
 
-    getComponents().forEach(({ input, output }) => {
+    getComponents().forEach(({ input, output, moduleOutput }) => {
         compile(input, output);
+        compile(input, moduleOutput);
     });
 };
 

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Paragraph } from '@prj--personal-portfolio-v2/react-cmp-lib';
+import { Paragraph } from '@prj--personal-portfolio-v2/react-cmp-lib/lib';
 import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.css';
 
 const meta = {

@@ -2,7 +2,7 @@ import React from 'react';
 import { FC } from 'react';
 
 import Paragraph from '../../atoms/Paragraph';
-import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.css';
+// import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.module.css';
 
 export type PersonalPortfolioWebpageProps = {};
 
