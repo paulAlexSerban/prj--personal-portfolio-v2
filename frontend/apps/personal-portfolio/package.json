@@ -1,0 +1,25 @@
+{
+    "name": "@prj--personal-portfolio-v2/personal-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "develop": "next dev",
+        "build:dev": "next build",
+        "build:prod": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "next": "14.0.4"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2",
+        "@types/node": "^20.9.2",
+        "@types/react": "^18.2.27",
+        "@types/react-dom": "^18.2.12",
+        "eslint": "^8.56.0",
+        "eslint-config-next": "14.0.4"
+    }
+}
