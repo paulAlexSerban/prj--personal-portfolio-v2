@@ -1,2 +1,3 @@
 import PersonalPortfolioWebpage from './templates/PersonalPortfolioWebpage';
-export { PersonalPortfolioWebpage };
+import Paragraph from './atoms/Paragraph';
+export { Paragraph, PersonalPortfolioWebpage };
