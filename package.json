@@ -19,7 +19,7 @@
         "test:chromatic": "yarn lerna run test:chromatic --stream --parallel",
         "version:modules": "bash tools/build-scripts/version.bash",
         "commit": "yarn git-cz",
-        "storybook": "yarn lerna run storybook",
+        "storybook": "yarn lerna run storybook --stream --parallel",
         "build:storybook": "yarn lerna run build:storybook",
         "build:styles": "lerna run build:prod --scope=@prj--personal-portfolio-v2/lsg-* --stream",
         "build:cmp": "lerna run build:prod --scope=@prj--personal-portfolio-v2/react-cmp-lib --scope=@prj--personal-portfolio-v2/shared-foundation --stream",
