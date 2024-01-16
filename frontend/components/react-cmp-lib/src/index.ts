@@ -1,3 +1,4 @@
 import PersonalPortfolioWebpage from './templates/PersonalPortfolioWebpage';
 import Paragraph from './atoms/Paragraph';
-export { Paragraph, PersonalPortfolioWebpage };
+import Heading from './atoms/Heading';
+export { Paragraph, Heading, PersonalPortfolioWebpage };

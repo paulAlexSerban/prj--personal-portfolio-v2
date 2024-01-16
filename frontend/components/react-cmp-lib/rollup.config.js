@@ -3,7 +3,12 @@ const terser = require('@rollup/plugin-terser');
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
-const input = ['./src/index.ts', './src/atoms/Paragraph/index.ts', './src/templates/PersonalPortfolioWebpage/index.ts'];
+const atoms = ['./src/atoms/Paragraph/index.ts', './src/atoms/Heading/index.ts'];
+const molecules = [];
+const organisms = [];
+const templates = ['./src/templates/PersonalPortfolioWebpage/index.ts'];
+
+const input = ['./src/index.ts', ...atoms, ...molecules, ...organisms, ...templates];
 
 const plugins = [typescript()];
 
@@ -20,5 +25,5 @@ module.exports = {
         preserveModules: true,
     },
     plugins,
-    external: ['react'],
+    external: ['react', '@prj--personal-portfolio-v2/shared-foundation'],
 };
