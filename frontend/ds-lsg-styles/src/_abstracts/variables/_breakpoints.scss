@@ -2,13 +2,24 @@
 =            Breakpoints                      =
 =============================================*/
 
-$breakpoints: (
-    md: 48rem,
-    // 768px
-    lg: 64rem,
-    // 1024px
-    xl: 80rem,
-    // 1280px
-);
+/* ------------------------------------ *\
+ * BREAKPOINTS
+ *
+ * Viewport breakpoints
+ * Values should be expressed in px.
+ *
+\* ------------------------------------ */
+
+$mobile-xxs: 1px !default;
+$mobile-xs: 320px !default;
+$mobile: 480px !default;
+$tablet-sm: 600px !default;
+$tablet-md: 840px !default;
+$tablet: 960px !default;
+$desktop: 1024px !default;
+$desktop-l: 1280px !default;
+$desktop-xl: 1440px !default;
+$desktop-xxl: 1600px !default;
+$ultra-wide: 1920px !default;
 
 /*=====  End of Breakpoints  ======*/

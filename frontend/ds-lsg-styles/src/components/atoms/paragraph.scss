@@ -1,9 +1,6 @@
 @use '../../_abstracts/index.scss' as *;
 
 .paragraph {
-    margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-
     @each $size, $value in $font-sizes {
         &--#{$size} {
             font-size: $value;
