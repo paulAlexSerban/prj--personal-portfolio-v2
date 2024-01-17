@@ -4,9 +4,9 @@ import { FC } from 'react';
 import Paragraph from '../../atoms/Paragraph';
 // import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.module.css';
 
-export type PersonalPortfolioWebpageProps = {};
+export type GenericProps = {};
 
-const PersonalPortfolioWebpage: FC<PersonalPortfolioWebpageProps> = () => {
+const Generic: FC<GenericProps> = () => {
     return (
         <div>
             <Paragraph size="xs">
@@ -28,4 +28,4 @@ const PersonalPortfolioWebpage: FC<PersonalPortfolioWebpageProps> = () => {
     );
 };
 
-export default PersonalPortfolioWebpage;
+export default Generic;

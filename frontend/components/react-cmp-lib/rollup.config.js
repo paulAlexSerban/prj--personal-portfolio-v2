@@ -6,7 +6,7 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 const atoms = ['./src/atoms/Paragraph/index.ts', './src/atoms/Heading/index.ts'];
 const molecules = [];
 const organisms = [];
-const templates = ['./src/templates/PersonalPortfolioWebpage/index.ts'];
+const templates = ['./src/templates/Generic/index.ts'];
 
 const input = ['./src/index.ts', ...atoms, ...molecules, ...organisms, ...templates];
 
