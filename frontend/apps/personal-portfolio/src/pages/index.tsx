@@ -2,8 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
 
-import { Paragraph } from '@prj--personal-portfolio-v2/react-cmp-lib/lib';
-import paraCss from '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.module.css';
+import { Paragraph, Heading } from '@prj--personal-portfolio-v2/react-cmp-lib/lib';
+import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.css';
+import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/heading.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,9 +18,8 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <Paragraph className={[paraCss.paragraph, paraCss['paragraph--base']].join(' ')}>
-                    BASE - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, nemo.
-                </Paragraph>
+                <Heading level={1} title="Heading Level 1" align="left" />
+                <Paragraph>BASE - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, nemo.</Paragraph>
             </main>
         </>
     );

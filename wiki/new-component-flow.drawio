@@ -50,10 +50,10 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="./frontend/ds-storybook" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="845" y="280" width="150" height="30" as="geometry"/>
+                    <mxGeometry x="835" y="280" width="150" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="create designanted storyfile *.stories.tsx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="820" y="350" width="200" height="60" as="geometry"/>
+                    <mxGeometry x="810" y="350" width="200" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
