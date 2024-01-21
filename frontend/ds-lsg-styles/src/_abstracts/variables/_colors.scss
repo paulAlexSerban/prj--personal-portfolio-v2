@@ -26,3 +26,18 @@ $blue: #0468db;
 $blue-light: #b4d2f4;
 
 /*=====  End of Colors  ======*/
+
+$colors: (
+    'green': $green,
+    'green-light': $green-light,
+    'dark': $dark,
+    'dark-light': $dark-light,
+    'gray': $gray,
+    'gray-light': $gray-light,
+    'white': $white,
+    'white-dark': $white-dark,
+    'red': $red,
+    'red-light': $red-light,
+    'blue': $blue,
+    'blue-light': $blue-light,
+);

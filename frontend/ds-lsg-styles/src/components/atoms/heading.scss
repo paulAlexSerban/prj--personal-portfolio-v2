@@ -6,7 +6,13 @@ $alignments: (
     right: right,
 );
 
-.heading {
+$cmp: 'heading';
+
+.#{$cmp} {
+    &--highlight {
+        background-color: lightgray;
+    }
+
     @each $size, $value in $heading-sizes {
         &--#{$size} {
             font-size: $value;

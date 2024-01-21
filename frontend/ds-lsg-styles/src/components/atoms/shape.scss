@@ -1,0 +1,12 @@
+@use '../../_abstracts/index.scss' as *;
+
+.square,
+.circle {
+    --shape-size: #{convert-rem(40px)};
+    width: var(--shape-size);
+    aspect-ratio: 1;
+}
+
+.circle {
+    border-radius: 50%;
+}

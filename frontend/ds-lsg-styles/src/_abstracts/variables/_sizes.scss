@@ -1,0 +1,29 @@
+/* ------------------------------------ *\
+  * #SIZES
+\* ------------------------------------ */
+
+/// Default font size
+/// @type Number
+/// Used to convert `px` to `rem` or `em` using convert-rem() and convert-em() functions
+/// Notes:
+/// DO NOT CHANGE to convert-rem(16px); !!!
+$default-font-size: 16px !default;
+
+/// Project's design system sizes
+/// @type Number
+/// @param {Size} $baseline - horizontal base spacing value
+/// @param {Size} $gutter - vertical base spacing value
+$baseline: 8px;
+$gutter: 16px;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1220px;
+
+/// Gutter size
+/// @type Number
+$grid-gutter: 24px;
+
+/// Condensed gutter size
+/// @type Number
+$grid-gutter--condensed: 1px;

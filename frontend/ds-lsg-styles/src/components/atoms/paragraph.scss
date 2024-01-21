@@ -1,6 +1,7 @@
 @use '../../_abstracts/index.scss' as *;
 
 .paragraph {
+    grid-column: span 6;
     @each $size, $value in $font-sizes {
         &--#{$size} {
             font-size: $value;

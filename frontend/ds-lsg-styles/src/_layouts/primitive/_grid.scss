@@ -1,0 +1,17 @@
+@use '../../_abstracts/index.scss' as *;
+
+.grid {
+    --grid-gutter: var(--gutter);
+    display: grid;
+    max-width: var(--max-width);
+    grid-gap: var(--grid-gutter, var(--ss1));
+
+    @supports (width: min(var(--grid-col-min-width), 100%)) {
+        grid-template-columns: var(--grid-template-cols);
+    }
+
+    .col {
+        --grid-col: 1 / span 12;
+        grid-column: var(--grid-col);
+    }
+}

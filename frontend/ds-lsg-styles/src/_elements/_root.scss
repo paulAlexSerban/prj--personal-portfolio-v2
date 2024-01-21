@@ -1,6 +1,25 @@
-@use '../_abstracts/index.scss' as settings;
+@use '../_abstracts/index.scss' as *;
 
 :root {
+    --max-width: #{convert-rem($max-width)};
+    --baseline: #{convert-rem($baseline)};
+    --grid-col-min-width: #{convert-rem(120px)};
+    --grid-col-min-width: 20ch;
+    --grid-template-cols: repeat(var(--grid-col-count, auto-fit), minmax(var(--grid-col-min-width), 1fr));
+    --grid-template-cols: repeat(auto-fit, minmax(min(var(--grid-col-min-width), 100%), 1fr));
+    --measure: 60ch;
+
+    @include modular-harmonic-spacing-generator($propertyName: 'ss');
+    @include modular-harmonic-spacing-generator($propertyName: 'rs');
+
+    @include breakpoint($mobile) {
+        @include modular-harmonic-spacing-generator($propertyName: 'rs', $ratio: 1.65);
+    }
+
+    @include breakpoint($tablet) {
+        @include modular-harmonic-spacing-generator($propertyName: 'rs', $ratio: 1.75);
+    }
+
     // --ppr-body-text-color: #{settings.$dark};
     // --ppr-body-bg-color: #{settings.$white};
 

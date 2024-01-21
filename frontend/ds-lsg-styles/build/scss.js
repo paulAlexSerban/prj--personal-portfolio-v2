@@ -6,7 +6,7 @@ const SRC_DIR = path.resolve(__dirname, '..', 'src');
 const DIST_DIR = path.resolve(__dirname, '..', 'lib');
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
-const types = { components: ['atoms', 'molecules', 'organisms'], system: ['templates', 'pages'] };
+const types = { components: ['atoms', 'molecules', 'organisms'], system: ['templates', 'pages', 'utilities'] };
 
 const getComponents = () => {
     const groups = {
