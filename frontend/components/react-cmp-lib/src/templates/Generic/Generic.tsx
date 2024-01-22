@@ -4,12 +4,6 @@ import { FC } from 'react';
 import Paragraph from '../../atoms/Paragraph';
 import Heading from 'src/atoms/Heading';
 
-import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/system/pages/main.css';
-import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/shape.css';
-import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/heading.css';
-import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/components/atoms/paragraph.css';
-import '@prj--personal-portfolio-v2/ds-lsg-styles/lib/system/utilities/utilities.css';
-
 export type GenericProps = {};
 
 const Generic: FC<GenericProps> = () => {
