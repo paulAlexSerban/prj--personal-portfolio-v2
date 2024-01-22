@@ -41,3 +41,197 @@ $colors: (
     'blue': $blue,
     'blue-light': $blue-light,
 );
+
+/*=============================================
+= Themes
+=============================================*/
+
+/*
+Modern Tech
+Deep Navy Blue (#003366): Ideal for headers and footers, conveying depth and professionalism.
+Vibrant Teal (#30D5C8): Great for call-to-action buttons and links, offering a pop of color that's both modern and inviting.
+Soft Gray (#F5F5F5): Suitable for backgrounds, providing a neutral, clean canvas that's easy on the eyes.
+White (#FFFFFF): For text areas and cards, ensuring readability and a clean, minimalistic look.
+Dark Charcoal (#333333): Best for primary text, offering excellent readability and a sleek, modern appearance.
+*/
+
+$modern-tech: (
+    'body-text-color': #333333,
+    'body-bg-color': #ffffff,
+    'btn-primary-color': #ffffff,
+    'btn-primary-bg': #30d5c8,
+    'btn-primary-bg-hover': #003366,
+    'form-border-color': #f5f5f5,
+    'form-bg-color': #ffffff,
+    'form-bg-option-selected': #30d5c8,
+    'form-color-option-selected': #ffffff,
+    'form-bg-color-hover': #f5f5f5,
+    'form-color': #333333,
+    'form-bg': #ffffff,
+    'form-error-color': #d12727,
+    'form-error-border': #d12727,
+    'form-border-focus-color': #30d5c8,
+);
+
+/*
+Approachable & Innovative
+Sky Blue (#87CEEB): Perfect for navigational elements, offering a sense of openness and innovation.
+Sunset Orange (#FD5E53): Ideal for highlights and interactive elements, it's energetic and draws attention.
+Light Beige (#FFF8DC): For background areas, it provides a warm, inviting canvas that's soft and approachable.
+Classic Black (#000000): For main text, it's a standard color that denotes professionalism and clarity.
+Slate Gray (#708090): Good for secondary text and less important elements, providing a subtle contrast.
+*/
+
+$approachable-innovative: (
+    'body-text-color': #141414,
+    'body-bg-color': #fff8dc,
+    'btn-primary-color': #ffffff,
+    'btn-primary-bg': #fd5e53,
+    'btn-primary-bg-hover': #87ceeb,
+    'form-border-color': #fff8dc,
+    'form-bg-color': #ffffff,
+    'form-bg-option-selected': #fd5e53,
+    'form-color-option-selected': #ffffff,
+    'form-bg-color-hover': #fff8dc,
+    'form-color': #000000,
+    'form-bg': #ffffff,
+    'form-error-color': #d12727,
+    'form-error-border': #d12727,
+    'form-border-focus-color': #fd5e53,
+);
+
+/*
+Cloud-Inspired
+Azure Blue (#0073b1): Ideal for headers and footers, resonating with AWS’s branding.
+Cloud White (#ecf0f1): Background for content areas, providing a clean and readable space.
+Sunset Orange (#fd7e14): For interactive elements like buttons or icons to grab attention.
+Carbon Black (#333333): For primary text, ensuring excellent readability.
+Metallic Silver (#adb5bd): Use for secondary text or less important information.
+This palette reflects the cloud aspect of AWS, with a professional and tech-forward appearance.
+*/
+
+$cloud-inspired: (
+    'body-text-color': #333333,
+    'body-bg-color': #ecf0f1,
+    'btn-primary-color': #ffffff,
+    'btn-primary-bg': #fd7e14,
+    'btn-primary-bg-hover': #0073b1,
+    'form-border-color': #ecf0f1,
+    'form-bg-color': #ffffff,
+    'form-bg-option-selected': #fd7e14,
+    'form-color-option-selected': #ffffff,
+    'form-bg-color-hover': #ecf0f1,
+    'form-color': #333333,
+    'form-bg': #ffffff,
+    'form-error-color': #d12727,
+    'form-error-border': #d12727,
+    'form-border-focus-color': #fd7e14,
+);
+
+/*
+    Color Palette 1: Modern Tech
+    Dark Slate Gray (#2F4F4F) - Ideal for backgrounds and header bars.
+    Sky Blue (#87CEEB) - Great for buttons, links, or interactive elements.
+    White Smoke (#F5F5F5) - Use for card backgrounds and modals.
+    Steel Blue (#4682B4) - Suitable for secondary buttons or highlights.
+    Light Gray (#D3D3D3) - Perfect for borders and dividers.
+    UI Components Usage:
+
+    Dark Slate Gray for the main navigation and footer.
+    Sky Blue for primary call-to-action buttons.
+    White Smoke for background of content areas like cards.
+    Steel Blue for secondary buttons and link hover states.
+    Light Gray for table borders and section dividers.
+*/
+
+$modern-tech: (
+    'body-text-color': #333333,
+    'body-bg-color': #ffffff,
+    'btn-primary-color': #ffffff,
+    'btn-primary-bg': #87ceeb,
+    'btn-primary-bg-hover': #2f4f4f,
+    'form-border-color': #f5f5f5,
+    'form-bg-color': #ffffff,
+    'form-bg-option-selected': #87ceeb,
+    'form-color-option-selected': #ffffff,
+    'form-bg-color-hover': #f5f5f5,
+    'form-color': #333333,
+    'form-bg': #ffffff,
+    'form-error-color': #d12727,
+    'form-error-border': #d12727,
+    'form-border-focus-color': #87ceeb,
+);
+
+/*
+    Color Palette 2: Fresh and Energetic
+    Teal (#008080) - Ideal for primary action items and headers.
+    Coral (#FF7F50) - Great for notifications or urgent actions.
+    Ivory (#FFFFF0) - Use for background of main content areas.
+    Cadet Blue (#5F9EA0) - Suitable for secondary elements and info boxes.
+    Dark Sea Green (#8FBC8F) - Perfect for success messages and icons.
+    UI Components Usage:
+
+    Teal for the main navigation bar and primary buttons.
+    Coral for warning or alert messages.
+    Ivory as the main background color for a clean look.
+    Cadet Blue for information cards and secondary buttons.
+    Dark Sea Green for success indicators and confirmation messages.
+*/
+
+$fresh-and-energetic: (
+    'body-text-color': #333333,
+    'body-bg-color': #ebebeb,
+    'btn-primary-color': #ffffff,
+    'btn-primary-bg': #008080,
+    'btn-primary-bg-hover': #5f9ea0,
+    'form-border-color': #fffff0,
+    'form-bg-color': #ffffff,
+    'form-bg-option-selected': #008080,
+    'form-color-option-selected': #ffffff,
+    'form-bg-color-hover': #fffff0,
+    'form-color': #333333,
+    'form-bg': #ffffff,
+    'form-error-color': #d12727,
+    'form-error-border': #d12727,
+    'form-border-focus-color': #008080,
+);
+
+/*
+Application in Web Design:
+Headers & Footers: Use the darkest color in the palette for a grounding effect.
+Call-to-Action Buttons & Links: Use a vibrant, standout color to attract clicks and engagement.
+Backgrounds: A lighter, neutral color keeps the website looking clean and modern.
+Text Areas: White or very light colors ensure readability.
+Primary & Secondary Text: Use contrasting shades for clarity and hierarchy.
+
+Navigation Bar and Footer: Use the darker shades (Dark Slate Gray or Azure Blue) for a professional look.
+Call to Action Buttons: Brighter colors like Deep Sky Blue or Sunset Orange will make them stand out.
+Backgrounds: Alternate between lighter shades (Soft Gray or Cloud White) to segment different sections of your website.
+Text: Use the darkest color in the palette for primary text to ensure readability, and a lighter, contrasting shade for secondary information.
+Highlights and Accents: Use the most vibrant color (Vibrant Yellow or Sunset Orange) to draw attention to key areas like testimonials, achievements, or skills.
+
+### Additional Considerations for Color Application
+
+#### Interactive Elements
+- **Interactive Elements (e.g., Dropdowns, Forms, Modals)**: Utilize the secondary color (like the Vibrant Teal or Sunset Orange) to draw attention and guide the user through interactive experiences. This helps in making forms or modals stand out, ensuring that they are user-friendly and engaging.
+
+#### Icons and Illustrations
+- **Icons and Illustrations**: Use a mix of the palette colors to maintain consistency and brand identity. The less dominant colors in your palette can be used here to add a subtle flair without overwhelming the primary content.
+
+#### Graphs and Charts
+- **Graphs and Charts (for showcasing skills or project stats)**: Apply multiple colors from your palette to differentiate data points or categories. This not only makes the charts more visually appealing but also helps in conveying information more effectively.
+
+#### Footer
+- **Footer**: Incorporate a combination of the darker and lighter shades. Darker colors (like Deep Navy Blue or Classic Black) are great for the background, while lighter shades can be used for text or icons. This helps in creating a visually balanced and professional-looking footer.
+
+#### Branding Elements
+- **Branding Elements (like logos or custom graphics)**: Use your primary and secondary colors to reinforce brand identity. Consistency in these elements across your portfolio and professional platforms (like LinkedIn or GitHub) helps in building a recognizable personal brand.
+
+#### Hover and Active States
+- **Hover and Active States for Interactive Elements**: Use a slightly different shade or a complementing color from your palette to indicate interaction, like hovering over a button or selecting an option. This not only enhances user experience but also adds a subtle dynamic quality to your website.
+
+### Tailoring to Your Personal Brand
+Remember, the colors you choose should align with your personal brand as a freelancer. If you prefer a more corporate and professional look, lean towards cooler, subdued colors. For a more dynamic and creative brand, warmer and brighter colors can be more appealing. The key is consistency and ensuring that your color choices reinforce the message you want to send to potential clients about your skills and work style.
+
+In conclusion, the right color palette can significantly impact how potential clients perceive your skills and professionalism. It's an essential part of your branding strategy as a freelance full-stack JavaScript software engineer specializing in React and AWS.
+*/
