@@ -14,5 +14,7 @@ const fontSizes: {
     lg: 'lg',
     xl: 'xl',
 };
-
+/**
+ * Object.freeze() prevents the object from being modified making it immutable.
+ */
 export default Object.freeze(fontSizes);

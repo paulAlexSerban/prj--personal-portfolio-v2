@@ -2,16 +2,10 @@
 
 @each $size, $value in $spacing {
     .width-#{$size} {
-        width: $value !important;
+        width: $value;
     }
 
     .height-#{$size} {
         height: $value;
-    }
-}
-
-@each $color, $value in $colors {
-    .bkg-color-#{$color} {
-        background-color: $value !important;
     }
 }

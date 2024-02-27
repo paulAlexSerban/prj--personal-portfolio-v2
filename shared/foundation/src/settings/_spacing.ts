@@ -32,5 +32,7 @@ const spaces: {
     // 72px
     xxxl: 'xxxl',
 };
-
+/**
+ * Object.freeze() prevents the object from being modified making it immutable.
+ */
 export default Object.freeze(spaces);

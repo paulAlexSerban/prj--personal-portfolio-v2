@@ -1,0 +1,7 @@
+@use '../../_abstracts/index.scss' as *;
+
+@each $color, $value in $colors {
+    .color-bkg-#{$color} {
+        background-color: $value;
+    }
+}

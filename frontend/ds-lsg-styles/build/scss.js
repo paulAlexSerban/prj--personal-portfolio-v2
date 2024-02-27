@@ -6,11 +6,11 @@ const SRC_DIR = path.resolve(__dirname, '..', 'src');
 const DIST_DIR = path.resolve(__dirname, '..', 'lib');
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
-const types = { components: ['atoms', 'molecules', 'organisms'], system: ['templates', 'pages', 'utilities'] };
+const types = { library: ['atoms', 'molecules', 'organisms', 'tokens'], system: ['templates', 'pages', 'utilities'] };
 
 const getComponents = () => {
     const groups = {
-        components: [],
+        library: [],
         system: [],
     };
 
@@ -19,15 +19,18 @@ const getComponents = () => {
             const allFiles = fs
                 .readdirSync(path.resolve(SRC_DIR, type, component))
                 .filter((file) => !file.includes('.md'))
-                .map((file) => ({
-                    input: `${SRC_DIR}/${type}/${component}/${file}`,
-                    output: `${DIST_DIR}/${type}/${component}/${file.replace('.scss', '.css')}`,
-                    moduleOutput: `${DIST_DIR}/${type}/${component}/${file.replace('.scss', '.module.css')}`,
-                }));
+                .filter((file) => !file.startsWith('_'))
+                .map((file) => {
+                    return {
+                        input: `${SRC_DIR}/${type}/${component}/${file}`,
+                        output: `${DIST_DIR}/${type}/${component}/${file.replace('.scss', '.css')}`,
+                        moduleOutput: `${DIST_DIR}/${type}/${component}/${file.replace('.scss', '.module.css')}`,
+                    };
+                });
             groups[type] = [...groups[type], ...allFiles];
         });
     });
-    return [...groups.components, ...groups.system];
+    return [...groups.library, ...groups.system];
 };
 
 const compile = (inputFile, outputFile) => {

@@ -59,13 +59,13 @@ $fw-extrabold: 800;
 $fw-black: 900;
 
 $font-weights: (
-    light: #{$fw-light},
-    normal: #{$fw-normal},
-    medium: #{$fw-medium},
-    semibold: #{$fw-semibold},
-    bold: #{$fw-bold},
-    extrabold: #{$fw-extrabold},
-    black: #{$fw-black},
+    'light': #{$fw-light},
+    'normal': #{$fw-normal},
+    'medium': #{$fw-medium},
+    'semibold': #{$fw-semibold},
+    'bold': #{$fw-bold},
+    'extrabold': #{$fw-extrabold},
+    'black': #{$fw-black},
 );
 
 /*=====  End of Typography  ======*/

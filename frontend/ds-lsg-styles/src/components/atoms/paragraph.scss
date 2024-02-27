@@ -1,9 +1,0 @@
-@use '../../_abstracts/index.scss' as *;
-
-.paragraph {
-    @each $size, $value in $font-sizes {
-        &--#{$size} {
-            font-size: $value;
-        }
-    }
-}

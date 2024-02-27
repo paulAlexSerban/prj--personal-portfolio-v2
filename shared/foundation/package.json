@@ -17,6 +17,7 @@
     },
     "scripts": {
         "test": "jest --verbose --coverage",
+        "test:update": "jest --verbose --coverage --updateSnapshot",
         "test:watch": "jest --verbose --watch",
         "start": "yarn tsc --project tsconfig.json --watch",
         "lint": "echo \"No linting configured\"",
@@ -25,6 +26,5 @@
     },
     "publishConfig": {
         "access": "public"
-    },
-    "gitHead": "61a2d86e9917e1c31664100e607aae6701cd3ca0"
+    }
 }

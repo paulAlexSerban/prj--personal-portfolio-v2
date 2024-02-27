@@ -1,0 +1,13 @@
+@use '../../_abstracts/index.scss' as *;
+
+@each $size, $value in $font-sizes {
+    .font-#{$size} {
+        font-size: $value;
+    }
+}
+
+@each $style, $value in $font-weights {
+    .font-#{$style} {
+        font-weight: $value;
+    }
+}
